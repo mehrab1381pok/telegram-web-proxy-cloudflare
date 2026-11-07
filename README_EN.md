@@ -14,9 +14,9 @@ Telegram (Desktop 7.1.1+) sends its MTProto traffic inside a hidden WebView over
 
 ## One-click deploy
 
-Fork this repo (or upload this folder to a new repo), then replace `YOUR_GITHUB_USERNAME/YOUR_REPO` in the button URL:
+Fork this repo (or upload this folder to a new repo), then replace `mehrab1381pok/telegram-web-proxy-cloudflare` in the button URL:
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/mehrab1381pok/telegram-web-proxy-cloudflare)
 
 Then:
 
