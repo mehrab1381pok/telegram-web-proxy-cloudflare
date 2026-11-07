@@ -22,9 +22,9 @@ Telegram Desktop / iOS ──HTTPS/WebSocket──▶ دامنه‌ی شما (Cl
 
 ## نصب یک‌کلیکی (روش پیشنهادی)
 
-> اول این رپو را در حساب GitHub خودتان Fork کنید (یا همین پوشه را در یک رپوی تازه آپلود کنید)، بعد در لینک زیر به‌جای `YOUR_GITHUB_USERNAME/YOUR_REPO` آدرس رپوی خودتان را بگذارید.
+> اول این رپو را در حساب GitHub خودتان Fork کنید (یا همین پوشه را در یک رپوی تازه آپلود کنید)، بعد در لینک زیر به‌جای `mehrab1381pok/telegram-web-proxy-cloudflare` آدرس رپوی خودتان را بگذارید.
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/mehrab1381pok/telegram-web-proxy-cloudflare)
 
 بعد از کلیک، Cloudflare وارد حسابتان می‌شود، رپو را متصل می‌کند و Worker را می‌سازد. سپس فقط **۳ کار** می‌ماند:
 
@@ -74,7 +74,7 @@ https://t.me/webproxy?server=proxy.example.com&secret=ddXXXXXXXXXXXXXXXXXXXXXXXX
 ## روش ۳: نصب با CLI
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO.git
+git clone https://github.com/mehrab1381pok/telegram-web-proxy-cloudflare.git
 cd YOUR_REPO
 npm install
 npm run generate -- proxy.example.com   # SECRET و BOOT و لینک را می‌سازد
