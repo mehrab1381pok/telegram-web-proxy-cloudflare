@@ -1,0 +1,19 @@
+name = "telegram-web-proxy"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+workers_dev = true
+
+# --- Custom domain (recommended; workers.dev is filtered in some networks) ---
+# Either add the domain later in the Cloudflare dashboard
+# (Worker > Settings > Domains & Routes > Add > Custom domain), or uncomment:
+#
+# [[routes]]
+# pattern = "proxy.example.com"
+# custom_domain = true
+
+# Secrets are NOT stored here. Set them after deploy (see README):
+#   SECRET  -> 32 hex chars, or "dd" + 32 hex chars (recommended)
+#   BOOT    -> random string, at least 16 chars
+# Optional plain variable:
+# [vars]
+# DECOY_URL = "https://example.com"
